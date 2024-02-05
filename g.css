@@ -1,0 +1,56 @@
+.gaim{
+    min-height: 10px;
+    min-width: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    background: rgb(71, 69, 75);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3;
+    
+    
+    
+}
+.next{
+    height: 40px;
+    width: 130px;
+    box-shadow: 2px 4px 5px;
+    position: relative;
+    bottom: 80px;
+    font-size: 30px;
+}
+.num{
+    height: 50px;
+    border: 1px solid;
+    font-size: 50px;
+    text-align: center;
+    transition: all 0.4s linear;
+
+}
+.num:hover{
+    background: rgb(61, 154, 170);
+}
+.scount{
+    height: 110px;
+    width: 110px;
+    background: rgb(191, 210, 252);
+    position: relative;
+    left: 310px;
+    bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 4px 7px;
+}
+.g{
+    box-shadow: 6px 6px 6px ,inset 1px 6px 5px;
+    height: 40px;
+    width: 50px;
+    font-size: 27px;
+    margin: 3px;
+
+}
+.g p{
+    position: relative;
+    bottom: 20px;
+}
