@@ -1,3 +1,5 @@
+
+
 let $ = function(doom){
     return document.querySelector(doom);
 } 
